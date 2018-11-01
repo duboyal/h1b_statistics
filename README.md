@@ -1,4 +1,4 @@
-## Overview
+## Overview:
 1. [Problem](README.md#problem)
 2. [Input Dataset](README.md#input-dataset)
 3. [General structure](README.md#output)
@@ -14,7 +14,7 @@ This program provides a mechanism to analyze past years data, specificially calc
 # General Structure:
 The main program is saved in src as h1b_counting.py and this will be ran from the run.sh file on the top most level. the input can be found in the input directory and the output generated from h1b_counting.py will be saved in two files that can be found under the output directory. make sure when running that the paths to these files are indeed reflected in the run.sh file.
 
-# Input Datasets: 
+## Input Datasets: 
 
 Input is to be saved in our top level input directory as h1b_input.csv. If you download any of the raw data, save the file as such and place it in the input directory, then update the run.sh file to have ./input/h1b_input.csv as first argument.
 
@@ -23,7 +23,7 @@ Raw data could be found [here](https://www.foreignlaborcert.doleta.gov/performan
 There are Excel files converted from this into a semicolon separated (";") format and placed them into this Google drive [folder](https://drive.google.com/drive/folders/1Nti6ClUfibsXSQw5PUIWfVGSIrpuwyxf?usp=sharing). These were used for testing.
 
 
-# Output 
+## Output 
 
 The program creates 2 output files:
 * `top_10_occupations.txt`: Top 10 occupations for certified visa applications
