@@ -1,8 +1,8 @@
-# Table of Contents
+# Overview
 1. [Problem](README.md#problem)
 2. [Input Dataset](README.md#input-dataset)
-
-3. [Output](README.md#output)
+3. [General structure](README.md#output)
+4. [Output](README.md#output)
 
 
 # Problem:
