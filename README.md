@@ -51,7 +51,7 @@ The records in this file are sorted by __`NUMBER_CERTIFIED_APPLICATIONS`__ field
 
 
 
-## The Repo directory structure
+### The Repo directory structure
 
 The directory structure for your repo should look like this:
 ```
