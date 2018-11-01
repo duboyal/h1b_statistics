@@ -11,7 +11,9 @@ A newspaper editor was researching immigration data trends on H1B(H-1B, H-1B1, E
 
 This program provides a mechanism to analyze past years data, specificially calculate two metrics: **Top 10 Occupations** and **Top 10 States** for **certified** visa applications.
 
-# Input Datasets: to be saved in our top level input directory as h1b_input.csv. If you download any of the raw data, save the file as such and place it in the input directory, then update the run.sh file to have ./input/h1b_input.csv as first argument.
+# Input Datasets: 
+
+Input is to be saved in our top level input directory as h1b_input.csv. If you download any of the raw data, save the file as such and place it in the input directory, then update the run.sh file to have ./input/h1b_input.csv as first argument.
 
 Raw data could be found [here](https://www.foreignlaborcert.doleta.gov/performancedata.cfm) under the __Disclosure Data__ tab (i.e., files listed in the __Disclosure File__ column with ".xlsx" extension). 
 
