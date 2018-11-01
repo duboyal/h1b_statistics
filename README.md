@@ -11,7 +11,7 @@ A newspaper editor was researching immigration data trends on H1B(H-1B, H-1B1, E
 
 This program provides a mechanism to analyze past years data, specificially calculate two metrics: **Top 10 Occupations** and **Top 10 States** for **certified** visa applications.
 
-# General Structure:
+## General Structure:
 The main program is saved in src as h1b_counting.py and this will be ran from the run.sh file on the top most level. the input can be found in the input directory and the output generated from h1b_counting.py will be saved in two files that can be found under the output directory. make sure when running that the paths to these files are indeed reflected in the run.sh file.
 
 ## Input Datasets: 
@@ -23,7 +23,7 @@ Raw data could be found [here](https://www.foreignlaborcert.doleta.gov/performan
 There are Excel files converted from this into a semicolon separated (";") format and placed them into this Google drive [folder](https://drive.google.com/drive/folders/1Nti6ClUfibsXSQw5PUIWfVGSIrpuwyxf?usp=sharing). These were used for testing.
 
 
-## Output 
+## Output:
 
 The program creates 2 output files:
 * `top_10_occupations.txt`: Top 10 occupations for certified visa applications
