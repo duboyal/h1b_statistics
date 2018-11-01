@@ -22,6 +22,8 @@ Raw data could be found [here](https://www.foreignlaborcert.doleta.gov/performan
 
 There are Excel files converted from this into a semicolon separated (";") format and placed them into this Google drive [folder](https://drive.google.com/drive/folders/1Nti6ClUfibsXSQw5PUIWfVGSIrpuwyxf?usp=sharing). These were used for testing.
 
+## Comments on time complexity:
+It is understood that perhaps a stack data structure could be implemented to improve time complexity in som of the areas of the code (for example around lines 84 or 95 where there are double for loops) this could possibly improve time complexity to O(n^2) to O(n) if such a data structure could be implemented. I would like to revisit this project and improve it in this manner. Improving the time efficiency is always best practice.
 
 ## Output:
 
