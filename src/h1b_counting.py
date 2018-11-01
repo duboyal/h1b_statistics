@@ -17,11 +17,10 @@ from collections import Counter
 import operator
 
 
-# below: loading in data from arguments 
+# below: loading in data from second argument
 file = open(sys.argv[1],'r') 
 file1 = file.readlines()
 
-print(len(file1))
 
 big_list = []
 for line in file1:
@@ -39,7 +38,6 @@ def get_num(string):
     the index for a given column name
     '''
     for i in range(0,len(big_list[0])):
-        #print(i," ",big_list[0][i])
         if big_list[0][i] == string:
             return i
 
@@ -66,14 +64,9 @@ if get_num('LCA_CASE_EMPLOYER_STATE') == None:
 
 
 
-
-
-
-
 big_status_list = []
 for i in range(0,len(big_list)):
     big_status_list.append(big_list[i][STATUS])
-print(len(big_status_list))
 
 cert_dict = dict(Counter(item for item in big_status_list))
 total_cert = cert_dict['CERTIFIED'] # this returns us the total value of all certifieds
@@ -108,8 +101,7 @@ for i in range(0,len(dict_big_occ)):
 
 
 #  STATES :
-
-    
+ 
 
 state_name_list = []
 for i in range(0,len(big_list)):
@@ -117,7 +109,6 @@ for i in range(0,len(big_list)):
 
 
 state_set = list(set(state_name_list))
-print('got to here')
 
 big_list_state = []
 for state in state_set:    
@@ -145,7 +136,6 @@ for i in range(0,len(dict_big_state)):
 
 
 for i in range(0,len(list_mega_occ)):
-    #print(i)
     if 'CERTIFIED' not in list_mega_occ[i][1]:
         list_mega_occ[i][1]['CERTIFIED'] = 0
 
@@ -162,7 +152,6 @@ sorted_dict_occ = sorted(dict_occ.items(), key=operator.itemgetter(1), reverse =
 
 
 for i in range(0,len(list_mega_state)):
-    #print(i)
     if 'CERTIFIED' not in list_mega_state[i][1]:
         list_mega_state[i][1]['CERTIFIED'] = 0
 
@@ -174,12 +163,10 @@ dict_state = OrderedDict(dict_state)
 sorted_dict_state = sorted(dict_state.items(), key=operator.itemgetter(1), reverse = True)
 
 
-print('got to here2')
 
 # -----------
 #   OUTPUT:
 # -----------
-
 
 # TOP OCCUPATIONS:
 
