@@ -5,11 +5,14 @@
 3. [Output](README.md#output)
 
 
-# Problem
+# Problem:
 
 A newspaper editor was researching immigration data trends on H1B(H-1B, H-1B1, E-3) visa application processing over the past years, trying to identify the occupations and states with the most number of approved H1B visas. She has found statistics available from the US Department of Labor and its [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis). But while there are ready-made reports for [2018](https://www.foreignlaborcert.doleta.gov/pdf/PerformanceData/2018/H-1B_Selected_Statistics_FY2018_Q4.pdf) and [2017](https://www.foreignlaborcert.doleta.gov/pdf/PerformanceData/2017/H-1B_Selected_Statistics_FY2017.pdf), the site doesn’t have them for past years. 
 
 This program provides a mechanism to analyze past years data, specificially calculate two metrics: **Top 10 Occupations** and **Top 10 States** for **certified** visa applications.
+
+# General Structure:
+The main program is saved in src as h1b_counting.py and this will be ran from the run.sh file on the top most level. the input can be found in the input directory and the output generated from h1b_counting.py will be saved in two files that can be found under the output directory. make sure when running that the paths to these files are indeed reflected in the run.sh file.
 
 # Input Datasets: 
 
